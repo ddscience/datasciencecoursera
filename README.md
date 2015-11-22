@@ -1,4 +1,4 @@
-## run_analysis.R
+# run_analysis.R
 
 This script defines a series of functions:
 
@@ -17,7 +17,7 @@ mergedata:  this is does a lot of the work in the script
   it then combines or appends the test and train dataframes
   
   
-#Main
+##Main
 
 At this point it is just a matter of calling the functions to clean up the data with one major operation at the end
 
