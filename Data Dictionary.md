@@ -14,7 +14,14 @@
     * "5 STANDING"
     * "6 LAYING"
 
-## The remain columns (column number) are mean values for all collected data for the specified subject, performing the activity
+
+* The remaining columns (column number) are mean values for all collected data for the specified subject, performing the activity
+## columns 3-81
+## numeric values
+* The values are in specialized units specific to the response signal of the recording devices
+* They are specified X, Y, or Z directions
+* There is an indication of whether it is a standard deviation (std) or mean (mean)
+* There are other misc specialized attributes such as frequency domain data
 
 * 	x
 	
