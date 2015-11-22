@@ -2,9 +2,9 @@
 
 This script defines a series of functions:
 
-*loadfile: loads whichever data file given the path (was planning to use it for special file read options)
+* loadfile: loads whichever data file given the path (was planning to use it for special file read options)
 
-*getfeatures: looks in the features.txt in the Samsung data and does two things
+* getfeatures: looks in the features.txt in the Samsung data and does two things
   it finds mean and standard deviations data and records the column numbers in its first column
   it also gets the names of the data for the above selected data and records this in the second column
   it returns the dataframe containing two columns with this "feature" information
