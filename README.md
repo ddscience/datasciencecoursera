@@ -2,14 +2,17 @@
 
 This script defines a series of functions:
 
-loadfile: loads whichever data file given the path (was planning to use it for special file read options)
-getfeatures: looks in the features.txt in the Samsung data and does two things
+*loadfile: loads whichever data file given the path (was planning to use it for special file read options)
+
+*getfeatures: looks in the features.txt in the Samsung data and does two things
   it finds mean and standard deviations data and records the column numbers in its first column
   it also gets the names of the data for the above selected data and records this in the second column
   it returns the dataframe containing two columns with this "feature" information
-labelactivity: takes a dataframe and replaces the numerical activity in the "activity" column with the number and a descriptive   name of the activity
+
+*labelactivity: takes a dataframe and replaces the numerical activity in the "activity" column with the number and a descriptive   name of the activity
   it replaces all values in the supplied dataframe and returns it
-mergedata:  this is does a lot of the work in the script
+
+*mergedata:  this is does a lot of the work in the script
   it takes as an argument a numerical vector of selected features or columns ( previously from getfeatures function)
   it loads all the y, x, subject data files for both the test and train data
   it filters the loaded data for those features/columns and puts it into 2 parellel dataframes: test/train
